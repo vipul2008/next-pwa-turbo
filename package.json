@@ -1,5 +1,9 @@
 {
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Vipul Goel",
+    "email": "vipul2008@gmail.com"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -16,7 +20,7 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "with-tailwind",
+  "name": "next-pwa-turbo",
   "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
